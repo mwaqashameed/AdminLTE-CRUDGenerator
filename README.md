@@ -25,11 +25,16 @@ This Laravel Generator CRUD with base adminLTE template,
      ```
 4. Setting `.env`
 5. Import Database
-6. 
+6.  ``` php artisan migrate ```
+7. ``` php artisan db:seede ```
+8. ``` php artisan db:seed --class=UsersTableSeeder ```
+
+
+9. 
      ```sh 
    php artisan serve
      ```
-7. Login with account -> Username : `admin` , Password : `admin112277`
+10. Login with account -> Username : `admin` , Password : `admin112277`
 
 
 # Requirements
